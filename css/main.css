@@ -1,0 +1,49 @@
+* {
+  background-color: dimgrey;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.anno {
+  width: 96%;
+  height: 40px;
+  background-color: grey;
+  padding: 10px;
+  margin: 10px 2% 20px 2%;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#root .newDiv {
+  width: 25%;
+  height: 250px;
+  margin: 30px 2% 30px 2%;
+  background-repeat: round;
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+#root .selected {
+  opacity: 1;
+  width: 35%;
+  height: 350px;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#steelbutton img {
+  width: 33%;
+  margin: 30px 33% 60px 33%;
+}
+/*# sourceMappingURL=main.css.map */
